@@ -45,7 +45,7 @@ jobs:
         run: |
           docker push ${{ env.DOCKER_REGISTRY }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }}
 
-  # ===============================
+  # =============================== 
   # JOB 2 - CD : DEPLOY
   # ===============================
   deploy:
