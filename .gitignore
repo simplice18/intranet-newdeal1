@@ -74,4 +74,5 @@ coverage/
 # Misc
 *.pid
 *.seed
-*.lock
+*.lock 
+.vs/
